@@ -1,0 +1,28 @@
+{
+    "name": "eslym/eloquent-as",
+    "description": "Model::as(string);",
+    "type": "library",
+    "require": {
+        "illuminate/database": ">=5 <7",
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "0nepeop1e",
+            "email": "engshun.lim@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eslym\\Eloquent\\TableAs\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eslym\\Eloquent\\TableAs\\TableAsServiceProvider"
+            ]
+        }
+    }
+}
