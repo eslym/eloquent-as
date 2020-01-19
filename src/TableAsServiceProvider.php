@@ -7,6 +7,7 @@ namespace Eslym\Eloquent\TableAs;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
 
 class TableAsServiceProvider extends ServiceProvider
 {
